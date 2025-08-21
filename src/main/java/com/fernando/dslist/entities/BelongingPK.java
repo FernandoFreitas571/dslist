@@ -8,7 +8,7 @@ import jakarta.persistence.ManyToOne;
 import java.util.Objects;
 
 @Embeddable
-public class BelongingPK {
+public class BelongingPK { //Primary Key
 
     @ManyToOne
     @JoinColumn(name = "game_id")
